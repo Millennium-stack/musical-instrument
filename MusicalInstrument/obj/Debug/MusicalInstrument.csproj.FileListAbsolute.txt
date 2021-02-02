@@ -10,3 +10,4 @@ C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstr
 C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.csproj.CopyComplete
 C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.exe
 C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.pdb
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.Form1.resources

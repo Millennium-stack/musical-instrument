@@ -28,13 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.trackVolume = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // trackVolume
+            // 
+            this.trackVolume.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.trackVolume.Location = new System.Drawing.Point(12, 369);
+            this.trackVolume.Maximum = 100;
+            this.trackVolume.Name = "trackVolume";
+            this.trackVolume.Size = new System.Drawing.Size(776, 69);
+            this.trackVolume.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackVolume);
+            this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TrackBar trackVolume;
     }
 }
 
