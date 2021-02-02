@@ -1,0 +1,13 @@
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\bin\Debug\MusicalInstrument.exe.config
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\bin\Debug\MusicalInstrument.exe
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\bin\Debug\MusicalInstrument.pdb
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\bin\Debug\NAudio.dll
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\bin\Debug\NAudio.xml
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.csprojAssemblyReference.cache
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.Properties.Resources.resources
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.csproj.GenerateResource.cache
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.csproj.CoreCompileInputs.cache
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.csproj.CopyComplete
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.exe
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.pdb
+C:\codeClinic_c_sharp\musicalInstrument\MusicalInstrument\obj\Debug\MusicalInstrument.Form1.resources
