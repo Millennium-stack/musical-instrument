@@ -44,6 +44,8 @@
             this.trackVolume.Name = "trackVolume";
             this.trackVolume.Size = new System.Drawing.Size(776, 69);
             this.trackVolume.TabIndex = 0;
+            this.trackVolume.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TheMouseDown);
+            this.trackVolume.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TheMouseUp);
             // 
             // trackFrequency
             // 
@@ -57,6 +59,8 @@
             this.trackFrequency.Size = new System.Drawing.Size(69, 351);
             this.trackFrequency.TabIndex = 1;
             this.trackFrequency.Value = 100;
+            this.trackFrequency.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TheMouseDown);
+            this.trackFrequency.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TheMouseUp);
             // 
             // panel
             // 
@@ -64,6 +68,8 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(701, 351);
             this.panel.TabIndex = 2;
+            this.panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TheMouseDown);
+            this.panel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TheMouseUp);
             // 
             // Form1
             // 
