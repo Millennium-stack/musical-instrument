@@ -26,8 +26,8 @@ namespace MusicalInstrument
             trackVolume.ValueChanged += (s, e) => player.Volume = trackVolume.Value / 100F;
             trackVolume.Value = 50;
 
-            MouseDown += (s, e) => player.Play();
-            MouseUp += (s, e) => player.Stop();
+            panel.MouseDown += (s, e) => player.Play();
+            panel.MouseUp += (s, e) => player.Stop();
 
             trackFrequency.MouseDown += (s, e) => player.Play();
             trackFrequency.MouseUp += (s, e) => player.Stop();
