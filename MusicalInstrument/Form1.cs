@@ -1,6 +1,7 @@
 ﻿using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace MusicalInstrument
 {
@@ -27,14 +28,36 @@ namespace MusicalInstrument
             trackVolume.Value = 50;
         }
 
+        private Point cursorPoritionOnMouseDown;
+        private bool ButtonIsDown = false;
         private void TheMouseDown(object sender, MouseEventArgs e)
         {
             player.Play();
+
+            cursorPoritionOnMouseDown = e.Location;
+            ButtonIsDown = true;
         }
 
         private void TheMouseUp(object sender, MouseEventArgs e)
         {
             player.Stop();
+            ButtonIsDown = false;
+        }
+
+        private void panel_MouseMove(object sender, MouseEventArgs e)
+        {
+            var dX = cursorPoritionOnMouseDown.X - e.X;
+            var dY = cursorPoritionOnMouseDown.Y - e.Y;
+
+            // var vol
+            // var freq
+
+            if (ButtonIsDown)
+            {
+
+            }
+
+            Text = $"Musical Instrument! ({dX}), ({dY}), (vol), (freq)";
         }
     }
 }
