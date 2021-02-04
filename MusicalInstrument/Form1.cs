@@ -2,6 +2,7 @@
 using NAudio.Wave.SampleProviders;
 using System.Windows.Forms;
 using System.Drawing;
+using System;
 
 namespace MusicalInstrument
 {
@@ -49,15 +50,19 @@ namespace MusicalInstrument
             var dX = cursorPoritionOnMouseDown.X - e.X;
             var dY = cursorPoritionOnMouseDown.Y - e.Y;
 
-            // var vol
-            // var freq
+            var vol = player.Volume - (dX / 100000f);
+            var freq = sine.Frequency + (dY / 10f);
 
             if (ButtonIsDown)
             {
+                player.Volume = (vol > 0) ? (vol < 1) ? vol : 1 : 0;
+                sine.Frequency = (freq > 100) ? (freq < 1000) ? freq : 1000 : 100;
 
+                trackFrequency.Value = (int)Math.Round(sine.Frequency);
+                trackVolume.Value = (int)Math.Round(player.Volume * 100);
             }
 
-            Text = $"Musical Instrument! ({dX}), ({dY}), (vol), (freq)";
+            Text = $"Musical Instrument! ({dX}, {dY}), ({vol}, {freq})";
         }
     }
 }
