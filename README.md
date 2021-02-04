@@ -9,3 +9,7 @@ We create a computer program that converts mouse movements into musical pitches.
 - We can move the mouse up and down to change the pitch.
 - We can move the mouse side to side to change the volume.
 - If we let go of the mouse button, the musical tone would stop.
+
+### O/P
+
+![alt text](https://github.com/Millennium-Heap/musical-instrument/blob/master/images/music.jpg?raw=true)
